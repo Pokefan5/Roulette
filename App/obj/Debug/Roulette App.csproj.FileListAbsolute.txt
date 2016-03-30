@@ -1,2 +1,3 @@
 D:\Users\Christian\Documents\GitHub\Roulette\App\Roulette App\bin\Debug\Roulette App.exe.config
 D:\Users\Christian\Documents\GitHub\Roulette\App\bin\Debug\Roulette App.exe.config
+C:\Users\Christian\Documents\GitHub\Roulette\App\bin\Debug\Roulette App.exe.config
