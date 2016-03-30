@@ -22,6 +22,7 @@ namespace Roulette_App
             //string roll = hexdec(substr($hash, 0, 8)) % 15;
             MessageBox.Show(hash);
             //MessageBox.Show("Round $round_id = $roll");
+            // CA
         }
     }
 }
