@@ -1,3 +1,11 @@
 D:\Users\Christian\Documents\GitHub\Roulette\App\Roulette App\bin\Debug\Roulette App.exe.config
 D:\Users\Christian\Documents\GitHub\Roulette\App\bin\Debug\Roulette App.exe.config
 C:\Users\Christian\Documents\GitHub\Roulette\App\bin\Debug\Roulette App.exe.config
+C:\Users\Christian\Documents\GitHub\Roulette\App\bin\Debug\Roulette App.exe
+C:\Users\Christian\Documents\GitHub\Roulette\App\bin\Debug\Roulette App.pdb
+C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette App.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette_App.Form1.resources
+C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette_App.Properties.Resources.resources
+C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette App.csproj.GenerateResource.Cache
+C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette App.exe
+C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette App.pdb

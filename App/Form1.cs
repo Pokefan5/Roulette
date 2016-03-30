@@ -15,6 +15,9 @@ namespace Roulette_App
         public Form1()
         {
             InitializeComponent();
+
+            FrenchWheel w = new FrenchWheel();
+            w.Test();
         }
     }
 }
