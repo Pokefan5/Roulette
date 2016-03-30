@@ -9,3 +9,4 @@ C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette_App.Properti
 C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette App.csproj.GenerateResource.Cache
 C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette App.exe
 C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette App.pdb
+C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette_App.Config.resources

@@ -19,5 +19,10 @@ namespace Roulette_App
             FrenchWheel w = new FrenchWheel();
             w.Test();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Run(new Config());
+        }
     }
 }
