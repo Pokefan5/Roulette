@@ -18,23 +18,10 @@ namespace Roulette_App
 
         private static Random random = new Random();
 
-        public void Test()
-        {
-            //string server_seed = "39b7d32fcb743c244c569a56d6de4dc27577d6277d6cf155bdcba6d05befcb34";
-            //string lotto = "0422262831";
-            //string round_id = "1";
-            //SHA256 sha = SHA256.Create("39b7d32fcb743c244c569a56d6de4dc27577d6277d6cf155bdcba6d05befcb34-0422262831-1");
-            //string hash = getSHA256Hash("--");
-            //string hashPart = hash.Substring(0, 8);
-            //string roll = hexdec(substr($hash, 0, 8)) % 15;
-            MessageBox.Show(Play().ToString());
-            //MessageBox.Show("Round $round_id = $roll");
-        }
-
         public Wheel()
         {
             this.seed = getSeed();
-            MessageBox.Show(this.seed);
+            //MessageBox.Show(this.seed);
         }
 
         public uint Play()
