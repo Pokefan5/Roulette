@@ -128,7 +128,5 @@ namespace Roulette_App
                 await Task.Delay(1);
             }
         }
-
-
     }
 }
