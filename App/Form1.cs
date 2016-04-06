@@ -100,10 +100,11 @@ namespace Roulette_App
 
             Wheel whl = new Wheel();
             Random rdn = new Random();
-            int x = Convert.ToInt32(whl.Play());
+
+            int goal = Convert.ToInt32(whl.Play());
             double vel = 20 + rdn.Next(0, 10);
 
-            while ((R1Loc.X < LocArr[x] - 6 || R1Loc.X > LocArr[x] + 6) || vel > 5)
+            while ((R1Loc.X < LocArr[goal] - 6 || R1Loc.X > LocArr[goal] + 6) || vel > 5)
             {
 
                 R1Loc.X = Convert.ToInt32(Math.Round(R1Loc.X + vel, 0));
