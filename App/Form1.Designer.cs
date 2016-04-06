@@ -30,16 +30,19 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnRight = new System.Windows.Forms.Button();
-            this.btnNext = new System.Windows.Forms.Button();
+            this.btnPlay = new System.Windows.Forms.Button();
             this.RouletteImg2 = new System.Windows.Forms.PictureBox();
             this.RoulleteImg1 = new System.Windows.Forms.PictureBox();
+            this.ImgPin = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.RouletteImg2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RoulleteImg1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgPin)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.ImgPin);
             this.panel1.Controls.Add(this.RouletteImg2);
             this.panel1.Controls.Add(this.RoulleteImg1);
             this.panel1.Location = new System.Drawing.Point(12, 12);
@@ -57,15 +60,15 @@
             this.btnRight.UseVisualStyleBackColor = true;
             this.btnRight.Click += new System.EventHandler(this.btnRight_Click);
             // 
-            // btnNext
+            // btnPlay
             // 
-            this.btnNext.Location = new System.Drawing.Point(242, 50);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(75, 23);
-            this.btnNext.TabIndex = 3;
-            this.btnNext.Text = "Goto Next";
-            this.btnNext.UseVisualStyleBackColor = true;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.btnPlay.Location = new System.Drawing.Point(12, 50);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(75, 23);
+            this.btnPlay.TabIndex = 3;
+            this.btnPlay.Text = "Play";
+            this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // RouletteImg2
             // 
@@ -89,12 +92,22 @@
             this.RoulleteImg1.TabIndex = 0;
             this.RoulleteImg1.TabStop = false;
             // 
+            // ImgPin
+            // 
+            this.ImgPin.Image = global::Roulette_App.Properties.Resources.Pin;
+            this.ImgPin.Location = new System.Drawing.Point(199, 3);
+            this.ImgPin.Name = "ImgPin";
+            this.ImgPin.Size = new System.Drawing.Size(2, 25);
+            this.ImgPin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ImgPin.TabIndex = 4;
+            this.ImgPin.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(422, 546);
-            this.Controls.Add(this.btnNext);
+            this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.btnRight);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -103,6 +116,7 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.RouletteImg2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RoulleteImg1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgPin)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -113,7 +127,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox RouletteImg2;
         private System.Windows.Forms.Button btnRight;
-        private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button btnPlay;
+        private System.Windows.Forms.PictureBox ImgPin;
     }
 }
 

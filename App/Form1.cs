@@ -22,6 +22,14 @@ namespace Roulette_App
         
         private void Form1_Load(object sender, EventArgs e)
         {
+            Point R1Loc = RoulleteImg1.Location;
+            Point R2Loc = RoulleteImg1.Location;
+
+            R2Loc.X = R1Loc.X - 925;
+
+            RoulleteImg1.Location = R1Loc;
+            RouletteImg2.Location = R2Loc;
+
             LocArr[0] = 188;
             LocArr[32] = 163;
             LocArr[15] = 138;
@@ -103,6 +111,8 @@ namespace Roulette_App
 
             int goal = Convert.ToInt32(whl.Play());
             double vel = 20 + rdn.Next(0, 10);
+
+            MessageBox.Show(goal.ToString());
 
             while ((R1Loc.X < LocArr[goal] - 6 || R1Loc.X > LocArr[goal] + 6) || vel > 5)
             {
