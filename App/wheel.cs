@@ -10,13 +10,11 @@ namespace Roulette_App
 {
     class Wheel
     {
-        uint NumberOfFields = 37;
+        private uint NumberOfFields = 37;
 
-        string seed;
+        private string seed;
 
-        int round = 0;
-
-        private static Random random = new Random();
+        private int round = 0;
 
         public Wheel()
         {
@@ -40,6 +38,7 @@ namespace Roulette_App
         private string getSeed()
         {
             byte[] buffer = new byte[128 / 2];
+            Random random = new Random();
             random.NextBytes(buffer);
             return String.Concat(buffer.Select(x => x.ToString("X2")).ToArray());
         }
