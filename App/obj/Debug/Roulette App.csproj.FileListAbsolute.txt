@@ -18,3 +18,12 @@ C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette App.csprojResolveAs
 C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette_App.Form1.resources
 C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette_App.Properties.Resources.resources
 C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette App.csproj.GenerateResource.Cache
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\bin\Debug\Roulette App.exe.config
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette App.exe
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette App.pdb
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\bin\Debug\Roulette App.exe
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\bin\Debug\Roulette App.pdb
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette App.csprojResolveAssemblyReference.cache
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette_App.Form1.resources
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette_App.Properties.Resources.resources
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette App.csproj.GenerateResource.Cache

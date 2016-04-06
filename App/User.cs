@@ -8,13 +8,11 @@ namespace Roulette_App
 {
     class User
     {
-        public string name;
-        public int balance;
+        int money;
 
-        public User(string n, int b)
+        public User()
         {
-            this.name = n;
-            this.balance = b;
+            money = 1000;
         }
     }
 }
