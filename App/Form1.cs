@@ -101,7 +101,7 @@ namespace Roulette_App
             }
         }
         //185
-        private async void btnNext_Click(object sender, EventArgs e)
+        private async void btnPlay_Click(object sender, EventArgs e)
         {
             Point R1Loc = RoulleteImg1.Location;
             Point R2Loc = RoulleteImg1.Location;
