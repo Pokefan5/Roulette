@@ -207,12 +207,14 @@ namespace Roulette_App
                 usr.Money += bet * multiplier;
                 txtWinLose.Text = (bet * multiplier).ToString();
                 txtWinLose.ForeColor = Color.Green;
+                MessageBox.Show("You won " + (bet * multiplier).ToString() + " Points!", "You Won", MessageBoxButtons.OK, MessageBoxIcon.None);
             }
             else
             {
                 usr.Money -= bet;
                 txtWinLose.Text = "-" + bet.ToString();
                 txtWinLose.ForeColor = Color.Red;
+                MessageBox.Show("You lost " + bet.ToString() + " Points!", "You Lost", MessageBoxButtons.OK, MessageBoxIcon.None);
             }
 
             enableAll();
