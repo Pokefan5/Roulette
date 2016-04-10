@@ -8,11 +8,17 @@ namespace Roulette_App
 {
     class User
     {
-        int money;
+        private int money;
 
         public User()
         {
             money = 1000;
+        }
+
+        public int Money
+        {
+            get { return money; }
+            set { money = value; }
         }
     }
 }

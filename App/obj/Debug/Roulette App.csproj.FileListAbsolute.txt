@@ -27,3 +27,12 @@ F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette App.csprojResolveA
 F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette_App.Form1.resources
 F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette_App.Properties.Resources.resources
 F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette App.csproj.GenerateResource.Cache
+G:\Projekte\Roulette\App\bin\Debug\Roulette App.exe.config
+G:\Projekte\Roulette\App\obj\Debug\Roulette App.exe
+G:\Projekte\Roulette\App\obj\Debug\Roulette App.pdb
+G:\Projekte\Roulette\App\bin\Debug\Roulette App.exe
+G:\Projekte\Roulette\App\bin\Debug\Roulette App.pdb
+G:\Projekte\Roulette\App\obj\Debug\Roulette App.csprojResolveAssemblyReference.cache
+G:\Projekte\Roulette\App\obj\Debug\Roulette_App.Form1.resources
+G:\Projekte\Roulette\App\obj\Debug\Roulette_App.Properties.Resources.resources
+G:\Projekte\Roulette\App\obj\Debug\Roulette App.csproj.GenerateResource.Cache
