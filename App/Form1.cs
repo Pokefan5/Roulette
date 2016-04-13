@@ -394,14 +394,9 @@ namespace Roulette_App
         {
             usr.Money += 100;
         }
-
-        private void btnHelp_Click(object sender, EventArgs e)
+        private void lblHelp_MouseEnter(object sender, EventArgs e)
         {
-            Help hlp = new Help();
-            hlp.Show();
-            hlp.BringToFront();
-            hlp.Focus();
-            hlp.Select();
+            toolTipHelp.Show("At first you must set a bet.\nThen you have the choice\nbetween a number, a dozen or\na color.Select one and press\nthe play button.Now the\nprogramm tells you the\namount of what you have won\nor lost.\nTry again.", this, lblHelp.Location, 10000);
         }
     }
 }
