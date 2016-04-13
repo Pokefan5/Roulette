@@ -48,6 +48,8 @@
             this.txtNumber = new System.Windows.Forms.NumericUpDown();
             this.txtBet = new System.Windows.Forms.NumericUpDown();
             this.panelMoney = new System.Windows.Forms.Panel();
+            this.lboHistory = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelWheel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImgPin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RouletteImg2)).BeginInit();
@@ -257,11 +259,30 @@
             this.panelMoney.TabIndex = 20;
             this.panelMoney.Click += new System.EventHandler(this.panelMoney_Click);
             // 
+            // lboHistory
+            // 
+            this.lboHistory.FormattingEnabled = true;
+            this.lboHistory.Location = new System.Drawing.Point(303, 75);
+            this.lboHistory.Name = "lboHistory";
+            this.lboHistory.Size = new System.Drawing.Size(100, 95);
+            this.lboHistory.TabIndex = 21;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(300, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 13);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "History";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(422, 346);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lboHistory);
             this.Controls.Add(this.panelMoney);
             this.Controls.Add(this.txtBet);
             this.Controls.Add(this.txtNumber);
@@ -315,6 +336,8 @@
         private System.Windows.Forms.NumericUpDown txtNumber;
         private System.Windows.Forms.NumericUpDown txtBet;
         private System.Windows.Forms.Panel panelMoney;
+        private System.Windows.Forms.ListBox lboHistory;
+        private System.Windows.Forms.Label label1;
     }
 }
 

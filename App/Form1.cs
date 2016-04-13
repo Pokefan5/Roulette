@@ -27,9 +27,9 @@ namespace Roulette_App
         
         private void Form1_Load(object sender, EventArgs e)
         {
-            txtBalance.Text = usr.Money.ToString();
-            txtWinLose.Text = "0";
-            txtBet.Maximum = usr.Money;
+            txtBalance.Text = usr.Money.ToString(); //actual Balance
+            txtWinLose.Text = "0"; //win or lose in the actual round
+            txtBet.Maximum = usr.Money; 
 
             Point R1Loc = RoulleteImg1.Location;
             Point R2Loc = RoulleteImg1.Location;
@@ -137,6 +137,8 @@ namespace Roulette_App
             int betNr = Convert.ToInt32(txtNumber.Value);
             double vel = 20 + rdn.Next(0, 10);
 
+            string history;
+
             //MessageBox.Show(goal.ToString());
 
             
@@ -217,6 +219,30 @@ namespace Roulette_App
                 MessageBox.Show("You lost " + bet.ToString() + " Points!", "You Lost", MessageBoxButtons.OK, MessageBoxIcon.None);
             }
 
+            history = goal.ToString();
+
+            if(checkBlack(goal) == true)
+            {
+                history += ", black";
+            }
+            else
+            {
+                history += ", red";
+            }
+            if(checkDozend1(goal) == true)
+            {
+                history += ", dozen 1";
+            }
+            else if(checkDozend2(goal) == true)
+            {
+                history += ", dozen 2";
+            }
+            else
+            {
+                history += ", dozen 3";
+            }
+            lboHistory.Items.Insert(0, history);
+            
             enableAll();
         }
 

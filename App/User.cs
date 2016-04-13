@@ -12,7 +12,7 @@ namespace Roulette_App
 
         public User()
         {
-            money = 1000;
+            money = 1000; //money when programm is started
         }
 
         public int Money
