@@ -394,5 +394,14 @@ namespace Roulette_App
         {
             usr.Money += 100;
         }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            Help hlp = new Help();
+            hlp.Show();
+            hlp.BringToFront();
+            hlp.Focus();
+            hlp.Select();
+        }
     }
 }

@@ -50,6 +50,7 @@
             this.panelMoney = new System.Windows.Forms.Panel();
             this.lboHistory = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnHelp = new System.Windows.Forms.Button();
             this.panelWheel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImgPin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RouletteImg2)).BeginInit();
@@ -113,7 +114,7 @@
             // lblSelect
             // 
             this.lblSelect.AutoSize = true;
-            this.lblSelect.Location = new System.Drawing.Point(12, 175);
+            this.lblSelect.Location = new System.Drawing.Point(12, 101);
             this.lblSelect.Name = "lblSelect";
             this.lblSelect.Size = new System.Drawing.Size(175, 13);
             this.lblSelect.TabIndex = 4;
@@ -123,7 +124,7 @@
             // 
             this.rdoNumber.AutoSize = true;
             this.rdoNumber.Checked = true;
-            this.rdoNumber.Location = new System.Drawing.Point(15, 191);
+            this.rdoNumber.Location = new System.Drawing.Point(15, 117);
             this.rdoNumber.Name = "rdoNumber";
             this.rdoNumber.Size = new System.Drawing.Size(92, 17);
             this.rdoNumber.TabIndex = 5;
@@ -135,7 +136,7 @@
             // rdo1Dozen
             // 
             this.rdo1Dozen.AutoSize = true;
-            this.rdo1Dozen.Location = new System.Drawing.Point(15, 215);
+            this.rdo1Dozen.Location = new System.Drawing.Point(15, 141);
             this.rdo1Dozen.Name = "rdo1Dozen";
             this.rdo1Dozen.Size = new System.Drawing.Size(68, 17);
             this.rdo1Dozen.TabIndex = 6;
@@ -145,7 +146,7 @@
             // rdo2Dozen
             // 
             this.rdo2Dozen.AutoSize = true;
-            this.rdo2Dozen.Location = new System.Drawing.Point(15, 239);
+            this.rdo2Dozen.Location = new System.Drawing.Point(15, 165);
             this.rdo2Dozen.Name = "rdo2Dozen";
             this.rdo2Dozen.Size = new System.Drawing.Size(68, 17);
             this.rdo2Dozen.TabIndex = 7;
@@ -155,7 +156,7 @@
             // rdo3Dozen
             // 
             this.rdo3Dozen.AutoSize = true;
-            this.rdo3Dozen.Location = new System.Drawing.Point(15, 263);
+            this.rdo3Dozen.Location = new System.Drawing.Point(15, 189);
             this.rdo3Dozen.Name = "rdo3Dozen";
             this.rdo3Dozen.Size = new System.Drawing.Size(68, 17);
             this.rdo3Dozen.TabIndex = 8;
@@ -165,7 +166,7 @@
             // rdoRed
             // 
             this.rdoRed.AutoSize = true;
-            this.rdoRed.Location = new System.Drawing.Point(15, 287);
+            this.rdoRed.Location = new System.Drawing.Point(15, 213);
             this.rdoRed.Name = "rdoRed";
             this.rdoRed.Size = new System.Drawing.Size(45, 17);
             this.rdoRed.TabIndex = 9;
@@ -175,7 +176,7 @@
             // rdoBlack
             // 
             this.rdoBlack.AutoSize = true;
-            this.rdoBlack.Location = new System.Drawing.Point(15, 311);
+            this.rdoBlack.Location = new System.Drawing.Point(15, 237);
             this.rdoBlack.Name = "rdoBlack";
             this.rdoBlack.Size = new System.Drawing.Size(52, 17);
             this.rdoBlack.TabIndex = 10;
@@ -185,7 +186,7 @@
             // lblBet
             // 
             this.lblBet.AutoSize = true;
-            this.lblBet.Location = new System.Drawing.Point(268, 241);
+            this.lblBet.Location = new System.Drawing.Point(275, 170);
             this.lblBet.Name = "lblBet";
             this.lblBet.Size = new System.Drawing.Size(29, 13);
             this.lblBet.TabIndex = 12;
@@ -194,7 +195,7 @@
             // lblWinLose
             // 
             this.lblWinLose.AutoSize = true;
-            this.lblWinLose.Location = new System.Drawing.Point(239, 263);
+            this.lblWinLose.Location = new System.Drawing.Point(246, 192);
             this.lblWinLose.Name = "lblWinLose";
             this.lblWinLose.Size = new System.Drawing.Size(55, 13);
             this.lblWinLose.TabIndex = 13;
@@ -203,7 +204,7 @@
             // lblBalance
             // 
             this.lblBalance.AutoSize = true;
-            this.lblBalance.Location = new System.Drawing.Point(251, 287);
+            this.lblBalance.Location = new System.Drawing.Point(258, 216);
             this.lblBalance.Name = "lblBalance";
             this.lblBalance.Size = new System.Drawing.Size(46, 13);
             this.lblBalance.TabIndex = 14;
@@ -212,7 +213,7 @@
             // txtWinLose
             // 
             this.txtWinLose.BackColor = System.Drawing.Color.White;
-            this.txtWinLose.Location = new System.Drawing.Point(303, 262);
+            this.txtWinLose.Location = new System.Drawing.Point(310, 191);
             this.txtWinLose.Name = "txtWinLose";
             this.txtWinLose.ReadOnly = true;
             this.txtWinLose.Size = new System.Drawing.Size(100, 20);
@@ -221,7 +222,7 @@
             // txtBalance
             // 
             this.txtBalance.BackColor = System.Drawing.Color.White;
-            this.txtBalance.Location = new System.Drawing.Point(303, 284);
+            this.txtBalance.Location = new System.Drawing.Point(310, 213);
             this.txtBalance.Name = "txtBalance";
             this.txtBalance.ReadOnly = true;
             this.txtBalance.Size = new System.Drawing.Size(100, 20);
@@ -229,7 +230,7 @@
             // 
             // txtNumber
             // 
-            this.txtNumber.Location = new System.Drawing.Point(113, 191);
+            this.txtNumber.Location = new System.Drawing.Point(113, 117);
             this.txtNumber.Maximum = new decimal(new int[] {
             36,
             0,
@@ -241,7 +242,7 @@
             // 
             // txtBet
             // 
-            this.txtBet.Location = new System.Drawing.Point(303, 239);
+            this.txtBet.Location = new System.Drawing.Point(310, 168);
             this.txtBet.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -253,7 +254,7 @@
             // 
             // panelMoney
             // 
-            this.panelMoney.Location = new System.Drawing.Point(405, 330);
+            this.panelMoney.Location = new System.Drawing.Point(407, 250);
             this.panelMoney.Name = "panelMoney";
             this.panelMoney.Size = new System.Drawing.Size(17, 17);
             this.panelMoney.TabIndex = 20;
@@ -262,7 +263,7 @@
             // lboHistory
             // 
             this.lboHistory.FormattingEnabled = true;
-            this.lboHistory.Location = new System.Drawing.Point(303, 75);
+            this.lboHistory.Location = new System.Drawing.Point(310, 66);
             this.lboHistory.Name = "lboHistory";
             this.lboHistory.Size = new System.Drawing.Size(100, 95);
             this.lboHistory.TabIndex = 21;
@@ -270,17 +271,28 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(300, 60);
+            this.label1.Location = new System.Drawing.Point(307, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 22;
             this.label1.Text = "History";
             // 
+            // btnHelp
+            // 
+            this.btnHelp.Location = new System.Drawing.Point(12, 75);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(75, 23);
+            this.btnHelp.TabIndex = 23;
+            this.btnHelp.Text = "Help";
+            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(422, 346);
+            this.ClientSize = new System.Drawing.Size(422, 263);
+            this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lboHistory);
             this.Controls.Add(this.panelMoney);
@@ -301,7 +313,7 @@
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.panelWheel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Roulette";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelWheel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ImgPin)).EndInit();
@@ -338,6 +350,7 @@
         private System.Windows.Forms.Panel panelMoney;
         private System.Windows.Forms.ListBox lboHistory;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnHelp;
     }
 }
 

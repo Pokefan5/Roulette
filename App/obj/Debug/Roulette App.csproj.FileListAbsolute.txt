@@ -36,3 +36,4 @@ G:\Projekte\Roulette\App\obj\Debug\Roulette App.csprojResolveAssemblyReference.c
 G:\Projekte\Roulette\App\obj\Debug\Roulette_App.Form1.resources
 G:\Projekte\Roulette\App\obj\Debug\Roulette_App.Properties.Resources.resources
 G:\Projekte\Roulette\App\obj\Debug\Roulette App.csproj.GenerateResource.Cache
+C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette_App.Help.resources
