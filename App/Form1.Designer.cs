@@ -256,7 +256,7 @@
             // 
             // panelMoney
             // 
-            this.panelMoney.Location = new System.Drawing.Point(407, 250);
+            this.panelMoney.Location = new System.Drawing.Point(408, 254);
             this.panelMoney.Name = "panelMoney";
             this.panelMoney.Size = new System.Drawing.Size(17, 17);
             this.panelMoney.TabIndex = 20;
@@ -282,7 +282,7 @@
             // lblHelp
             // 
             this.lblHelp.AutoSize = true;
-            this.lblHelp.Location = new System.Drawing.Point(12, 76);
+            this.lblHelp.Location = new System.Drawing.Point(131, 241);
             this.lblHelp.Name = "lblHelp";
             this.lblHelp.Size = new System.Drawing.Size(29, 13);
             this.lblHelp.TabIndex = 24;
@@ -293,7 +293,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(422, 263);
+            this.ClientSize = new System.Drawing.Size(423, 270);
             this.Controls.Add(this.lblHelp);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lboHistory);
