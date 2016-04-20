@@ -396,7 +396,9 @@ namespace Roulette_App
         }
         private void lblHelp_MouseEnter(object sender, EventArgs e)
         {
-            toolTipHelp.Show("At first you must set a bet.\nThen you have the choice\nbetween a number, a dozen or\na color.Select one and press\nthe play button.Now the\nprogramm tells you the\namount of what you have won\nor lost.\nTry again.", this, lblHelp.Location, 10000);
+            Point helploc = lblHelp.Location;
+            helploc.Y += 20;
+            toolTipHelp.Show("At first you must set a bet.\nThen you have the choice\nbetween a number, a dozen or\na color.Select one and press\nthe play button.Now the\nprogramm tells you the\namount of what you have won\nor lost.\nTry again.", this, helploc, 10000);
         }
     }
 }

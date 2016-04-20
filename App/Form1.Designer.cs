@@ -282,7 +282,7 @@
             // lblHelp
             // 
             this.lblHelp.AutoSize = true;
-            this.lblHelp.Location = new System.Drawing.Point(131, 241);
+            this.lblHelp.Location = new System.Drawing.Point(393, 254);
             this.lblHelp.Name = "lblHelp";
             this.lblHelp.Size = new System.Drawing.Size(29, 13);
             this.lblHelp.TabIndex = 24;
