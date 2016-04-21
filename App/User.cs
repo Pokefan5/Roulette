@@ -15,7 +15,7 @@ namespace Roulette_App
             money = 1000; //money when programm is started
         }
 
-        public int Money
+        public int Money // property money
         {
             get { return money; }
             set { money = value; }

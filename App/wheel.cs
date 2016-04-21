@@ -43,7 +43,7 @@ namespace Roulette_App
             return String.Concat(buffer.Select(x => x.ToString("X2")).ToArray());
         }
 
-        private static String getSHA256Hash(String value)
+        private static String getSHA256Hash(String value) //generate random string (hex)
         {
             StringBuilder Sb = new StringBuilder();
 
