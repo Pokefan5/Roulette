@@ -234,11 +234,11 @@ namespace Roulette_App
             {
                 history += ", red";
             }
-            if(checkDozend1(goal) == true)
+            if (checkDozend1(goal) == true)
             {
                 history += ", dozen 1";
             }
-            else if(checkDozend2(goal) == true)
+            else if (checkDozend2(goal) == true)
             {
                 history += ", dozen 2";
             }
@@ -246,7 +246,13 @@ namespace Roulette_App
             {
                 history += ", dozen 3";
             }
-            lboHistory.Items.Insert(0, history);
+
+            lboHistory.Items.Insert(0, history); //add item to listbox
+            
+            //if(lboHistory.Items.Count < 7)
+            //{
+            //    lboHistory.Items.RemoveAt(7);
+            //}
             
             enableAll();
         }
