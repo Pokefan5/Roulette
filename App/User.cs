@@ -9,6 +9,7 @@ namespace Roulette_App
     class User
     {
         private int money;
+        private string name;
 
         public User()
         {
@@ -19,6 +20,12 @@ namespace Roulette_App
         {
             get { return money; }
             set { money = value; }
+        }
+
+        public string Name // property name
+        {
+            get { return name; }
+            set { name = value; }
         }
     }
 }
