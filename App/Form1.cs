@@ -17,7 +17,7 @@ namespace Roulette_App
             InitializeComponent();
         }
 
-        User usr = new User();
+        User usr = Program.usr;
 
         public int[] LocArr = new int[37];
 
