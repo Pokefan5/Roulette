@@ -120,7 +120,7 @@ namespace Roulette_App
 
         private async void btnPlay_Click(object sender, EventArgs e)
         {
-            disableAll();
+            disableAll(); //disable all control elements
 
             bool won = false;
 
@@ -167,59 +167,64 @@ namespace Roulette_App
                 await Task.Delay(1);
             }
             
+            /*check what radiobutton is selected
+            to calculate the amount of money
+            wich has been won or lost */
 
-            if (rdoNumber.Checked == true)
+            if (rdoNumber.Checked == true) //check number
             {
                 won = checkNumber(betNr, goal);
                 multiplier = 34;
             }
-            else if (rdo1Dozen.Checked == true)
+            else if (rdo1Dozen.Checked == true) //check first dozen
             {
                 won = checkDozend1(goal);
                 multiplier = 2;
             }
-            else if (rdo2Dozen.Checked == true)
+            else if (rdo2Dozen.Checked == true) //check second dozen
             {
                 won = checkDozend2(goal);
                 multiplier = 2;
             }
-            else if (rdo3Dozen.Checked == true)
+            else if (rdo3Dozen.Checked == true) //check third dozen
             {
                 won = checkDozend3(goal);
                 multiplier = 2;
             }
-            else if (rdoBlack.Checked == true)
+            else if (rdoBlack.Checked == true) //check color black
             {
                 won = checkBlack(goal);
                 multiplier = 1;
             }
-            else if (rdoRed.Checked == true)
+            else if (rdoRed.Checked == true) //check color red
             {
                 won = checkRed(goal);
                 multiplier = 1;
             }
-            else
+            else //when nothing is selected
             {
                 won = true;
                 multiplier = 0;
             }
 
-            if (won == true)
+            if (won == true) 
             {
-                usr.Money += bet * multiplier;
-                txtWinLose.Text = (bet * multiplier).ToString();
-                txtWinLose.ForeColor = Color.Green;
-                MessageBox.Show("You won " + (bet * multiplier).ToString() + " Points!", "You Won", MessageBoxButtons.OK, MessageBoxIcon.None);
+                usr.Money += bet * multiplier; //money is raised
+                txtWinLose.Text = (bet * multiplier).ToString(); //Output in Win/Lose textbox
+                txtWinLose.ForeColor = Color.Green; //color from value set green in Win/Lose textbox
+                MessageBox.Show("You won " + (bet * multiplier).ToString() + " Points!", "You Won",
+                    MessageBoxButtons.OK, MessageBoxIcon.None); //Output in Messagebox
             }
             else
             {
-                usr.Money -= bet;
-                txtWinLose.Text = "-" + bet.ToString();
-                txtWinLose.ForeColor = Color.Red;
-                MessageBox.Show("You lost " + bet.ToString() + " Points!", "You Lost", MessageBoxButtons.OK, MessageBoxIcon.None);
+                usr.Money -= bet; //money is degraded
+                txtWinLose.Text = "-" + bet.ToString(); //Output in Win/Lose textbox
+                txtWinLose.ForeColor = Color.Red; //color form value set ret in Win/Lose textbox
+                MessageBox.Show("You lost " + bet.ToString() + " Points!", "You Lost",
+                    MessageBoxButtons.OK, MessageBoxIcon.None); //Output in Messagebox
             }
 
-            history = goal.ToString();
+            history = goal.ToString(); //history
 
             if(checkBlack(goal) == true)
             {
