@@ -209,14 +209,14 @@ namespace Roulette_App
                 usr.Money += bet * multiplier;
                 txtWinLose.Text = (bet * multiplier).ToString();
                 txtWinLose.ForeColor = Color.Green;
-                MessageBox.Show("You won " + (bet * multiplier).ToString() + " Points!", "You Won", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show(usr.Name + " won " + (bet * multiplier).ToString() + " Points!", "You Won", MessageBoxButtons.OK, MessageBoxIcon.None);
             }
             else
             {
                 usr.Money -= bet;
                 txtWinLose.Text = "-" + bet.ToString();
                 txtWinLose.ForeColor = Color.Red;
-                MessageBox.Show("You lost " + bet.ToString() + " Points!", "You Lost", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show(usr.Name + " lost " + bet.ToString() + " Points!", "You Lost", MessageBoxButtons.OK, MessageBoxIcon.None);
             }
 
             history = goal.ToString();
@@ -243,6 +243,11 @@ namespace Roulette_App
             }
             lboHistory.Items.Insert(0, history);
             
+            if (lboHistory.Items.Count > 7)
+            {
+                lboHistory.Items.RemoveAt(7);
+            }
+
             enableAll();
         }
 
