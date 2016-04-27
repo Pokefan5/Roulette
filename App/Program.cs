@@ -8,6 +8,7 @@ namespace Roulette_App
 {
     static class Program
     {
+        public static User usr = new User();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +17,10 @@ namespace Roulette_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new LoginWindow());
             Application.Run(new Form1());
         }
+
+
     }
 }

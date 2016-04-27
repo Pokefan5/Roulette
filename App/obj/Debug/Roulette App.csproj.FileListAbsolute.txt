@@ -9,3 +9,31 @@ C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette_App.Properti
 C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette App.csproj.GenerateResource.Cache
 C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette App.exe
 C:\Users\Christian\Documents\GitHub\Roulette\App\obj\Debug\Roulette App.pdb
+C:\Users\Marcel\Source\Repos\Roulette\App\bin\Debug\Roulette App.exe.config
+C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette App.exe
+C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette App.pdb
+C:\Users\Marcel\Source\Repos\Roulette\App\bin\Debug\Roulette App.exe
+C:\Users\Marcel\Source\Repos\Roulette\App\bin\Debug\Roulette App.pdb
+C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette App.csprojResolveAssemblyReference.cache
+C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette_App.Form1.resources
+C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette_App.Properties.Resources.resources
+C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette App.csproj.GenerateResource.Cache
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\bin\Debug\Roulette App.exe.config
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette App.exe
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette App.pdb
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\bin\Debug\Roulette App.exe
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\bin\Debug\Roulette App.pdb
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette App.csprojResolveAssemblyReference.cache
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette_App.Form1.resources
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette_App.Properties.Resources.resources
+F:\Schule\SEW\Glavnik\Projekt\Roulette\App\obj\Debug\Roulette App.csproj.GenerateResource.Cache
+G:\Projekte\Roulette\App\bin\Debug\Roulette App.exe.config
+G:\Projekte\Roulette\App\obj\Debug\Roulette App.exe
+G:\Projekte\Roulette\App\obj\Debug\Roulette App.pdb
+G:\Projekte\Roulette\App\bin\Debug\Roulette App.exe
+G:\Projekte\Roulette\App\bin\Debug\Roulette App.pdb
+G:\Projekte\Roulette\App\obj\Debug\Roulette App.csprojResolveAssemblyReference.cache
+G:\Projekte\Roulette\App\obj\Debug\Roulette_App.Form1.resources
+G:\Projekte\Roulette\App\obj\Debug\Roulette_App.Properties.Resources.resources
+G:\Projekte\Roulette\App\obj\Debug\Roulette App.csproj.GenerateResource.Cache
+C:\Users\Marcel\Source\Repos\Roulette\App\obj\Debug\Roulette_App.LoginWindow.resources
