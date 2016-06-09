@@ -120,7 +120,7 @@ namespace Roulette_App
 
         private async void btnPlay_Click(object sender, EventArgs e)
         {
-            disableAll();
+            disableAll();               //Freeze input fields to avoid errors
 
             bool won = false;
 
@@ -168,50 +168,51 @@ namespace Roulette_App
             }
             
 
-            if (rdoNumber.Checked == true)
+            if (rdoNumber.Checked == true)          //check if number is given number when user checked 'Number' Radio Button
             {
                 won = checkNumber(betNr, goal);
                 multiplier = 34;
             }
-            else if (rdo1Dozen.Checked == true)
+            else if (rdo1Dozen.Checked == true)     //check if number is in the first dozen when user checked 'Dozen 1' Radio Button
             {
                 won = checkDozend1(goal);
                 multiplier = 2;
             }
-            else if (rdo2Dozen.Checked == true)
+            else if (rdo2Dozen.Checked == true)     //check if number is in the second dozen when user checked 'Dozen 2' Radio Button
             {
                 won = checkDozend2(goal);
                 multiplier = 2;
             }
-            else if (rdo3Dozen.Checked == true)
+            else if (rdo3Dozen.Checked == true)     //check if number is in the third dozen when user checked 'Dozen 3' Radio Button
             {
                 won = checkDozend3(goal);
                 multiplier = 2;
             }
-            else if (rdoBlack.Checked == true)
+            else if (rdoBlack.Checked == true)      //check if number is on the black half when user checked 'Black' Radio Button
             {
                 won = checkBlack(goal);
                 multiplier = 1;
             }
-            else if (rdoRed.Checked == true)
+            else if (rdoRed.Checked == true)        //check if number is on the red half when user checked 'Red' Radio Button
             {
                 won = checkRed(goal);
                 multiplier = 1;
             }
-            else
+            else                                    //handle error when no Radio Button is selected (this should not happen)
             {
                 won = true;
                 multiplier = 0;
+                MessageBox.Show("Something went wrong!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            if (won == true)
+            if (won == true)                        //award user with points if he won
             {
                 usr.Money += bet * multiplier;
                 txtWinLose.Text = (bet * multiplier).ToString();
                 txtWinLose.ForeColor = Color.Green;
                 MessageBox.Show(usr.Name + " won " + (bet * multiplier).ToString() + " Points!", "You Won", MessageBoxButtons.OK, MessageBoxIcon.None);
             }
-            else
+            else                                    //deduct points from user if he lost
             {
                 usr.Money -= bet;
                 txtWinLose.Text = "-" + bet.ToString();
@@ -249,6 +250,8 @@ namespace Roulette_App
             }
 
             enableAll();
+
+            btnPlay.Focus();
         }
 
         private void rdoNumber_CheckedChanged(object sender, EventArgs e)
